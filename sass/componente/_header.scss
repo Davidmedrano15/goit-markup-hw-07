@@ -1,9 +1,8 @@
 .header {
   border-bottom: 1px solid map-get($colors, 'border-button');
   &__container {
-    margin-left: 15%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 80px;
   }
